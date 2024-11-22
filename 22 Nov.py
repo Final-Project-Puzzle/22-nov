@@ -160,3 +160,6 @@ solved_board = solve_sudoku(sudoku_board_dict, use_backtracking=use_backtracking
 if solved_board:
     for row in solved_board:
         print(row)
+
+#to add: 1. naked pairs, 2. user choice for which method to use or either can be used, 3. for app to show with which method it has been solved if "either" has been chosen
+
